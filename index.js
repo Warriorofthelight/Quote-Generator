@@ -25,16 +25,24 @@ const quotes = [
   "You have within you right now, everything you need to deal with whatever the world can throw at you. - Marcus Aurelius",
   "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any moment. - Marcus Aurelius",
 ];
+// ******** FIRST ATTEMPT *************
+// generate.addEventListener("click", function () {
+//   // ****** FOREACH FUNCTION
+//   //   quotes.forEach(paste);
+
+//   //   function paste(item, index, arr) {
+//   //     quote.innerHTML = arr[0] = `${item}`;
+
+//   for (let i = 0; i < quotes.length; i++) {
+//     quote.innerHTML = quotes[i];
+//     console.log(i);
+//   }
+// });
 
 generate.addEventListener("click", function () {
-  // ****** FOREACH FUNCTION
-  //   quotes.forEach(paste);
+  // Generate a random index between 0 and the length of the quotes array
+  let randomIndex = Math.floor(Math.random() * quotes.length);
 
-  //   function paste(item, index, arr) {
-  //     quote.innerHTML = arr[0] = `${item}`;
-
-  for (let i = 0; i < quotes.length; i+) {
-    quote.innerHTML = i;
-    console.log(i);
-  }
+  // Use the random index to display a random quote
+  quote.innerHTML = quotes[randomIndex];
 });
