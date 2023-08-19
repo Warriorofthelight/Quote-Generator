@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.center {
+  height: 100vh;
+  padding: 2rem;
+  background: rgb(39, 1, 31);
+}
+
+.quote-center {
+  margin: auto;
+  padding: 2rem;
+  width: 500px;
+  height: auto;
+  background-color: rgb(75, 28, 81);
+  border-radius: 25px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.quote-center p {
+  padding: 1rem;
+}
