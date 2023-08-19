@@ -29,3 +29,18 @@ body {
 .quote-center p {
   padding: 1rem;
 }
+
+.quote-center button {
+  border: none;
+  background: rgb(244, 153, 244);
+  padding: 0.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: purple;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.quote-center button:hover {
+  background-color: rgb(190, 75, 190);
+}
